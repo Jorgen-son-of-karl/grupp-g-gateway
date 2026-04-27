@@ -23,12 +23,12 @@ spring:
         - id: motorcycle-service
           uri: http://localhost:8585
           predicates:
-            - Path=/motorcycles/api/v1/motorcycles/**
+            - Path=/motorcycles/api/v1/**
 
         - id: cinema-service
           uri: http://localhost:8583
           predicates:
-            - Path=/cinema/api/v1/cinema/**
+            - Path=/cinema/api/v1/**
 
 management:
   endpoints:
